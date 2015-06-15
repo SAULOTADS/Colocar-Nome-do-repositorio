@@ -3,9 +3,12 @@
 #include <stdlib.h>
 
 int main(void){
+     freopen("e1.txt", "r", stdin);
+     freopen("s1.txt", "w", stdout);
       
      unsigned int n, x, comprimento, distanciaPedagio, custoCombustKM, valorPorPedagio, nPedagio, custoPedagio,custoCombust,ValorGasto;
      scanf("%u", &n);
+     
 
      for(x=0; x<n; x++){
      scanf("%u%u%u%u" ,&comprimento,&distanciaPedagio,&custoCombustKM,&valorPorPedagio);
@@ -18,7 +21,8 @@ int main(void){
      printf("%u\n", ValorGasto);
 
     }
-   
-
+    
+   fclose(stdin);
+   fclose(stdout);
    return 0;
 }
