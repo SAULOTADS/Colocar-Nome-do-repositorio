@@ -6,7 +6,7 @@ int main(void){
      freopen("e1.txt", "r", stdin);
      freopen("s1.txt", "w", stdout);
       
-     unsigned int n, x, comprimento, distanciaPedagio, custoCombustKM, valorPorPedagio, nPedagio, custoPedagio,custoCombust,ValorGasto;
+     unsigned int n=0, x=0, comprimento=0, distanciaPedagio=0, custoCombustKM=0, valorPorPedagio=0, nPedagio=0, custoPedagio=0,custoCombust=0,ValorGasto=0;
      scanf("%u", &n);
      
      for(x=0; x<n; x++){
