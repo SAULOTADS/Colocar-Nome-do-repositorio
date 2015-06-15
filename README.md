@@ -1,4 +1,4 @@
-# Colocar-Nome-do-repositorio
+﻿# Colocar-Nome-do-repositorio
 descreve algo sobre o repositório ex.: será usado p/disciplina programação em C // alteração realizada
 
 ok saulo. Não seria melhor alterar o nome desse repositório? muda para lista1 de C
@@ -32,3 +32,5 @@ dados de saída
 342
 180
 s1.txt
+
+vou mandar o código num novo documento
